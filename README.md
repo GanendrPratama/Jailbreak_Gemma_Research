@@ -143,9 +143,11 @@ If you utilize this framework in your research, please cite:
 
 ```bibtex
 @article{jailbreakr1_2025,
-  title={Democratizing AI Safety: Automated Red Teaming on Gemma 3 via Resource-Efficient Reinforcement Learning},
-  author={Pratama, G. G. and Hardhan, D. and Widodo, L. B. C.},
-  journal={Netlab NLP Research Team, Universitas Indonesia},
-  year={2025}
+  title   = {Democratizing AI Safety: Automated Red Teaming on Gemma 3 via Resource-Efficient Reinforcement Learning},
+  author  = {Pratama, Ganendra and Hardhan, Daffa and Bagaskara, Leonard},
+  journal = {Netlab NLP Research Team, Universitas Indonesia},
+  year    = {2025},
+  month   = {December},
+  day     = {24}
 }
 ```
