@@ -35,13 +35,13 @@ graph TD
     end
 
     subgraph "JAILBREAK-R1 Engine (Tesla T4)"
-    B --> C[<b>Red Team Model</b><br/>Gemma 3 4B<br/>(Unsloth 4-bit / LoRA)]
-    D{<b>GRPO Algorithm</b><br/>No Value Network}
+    B --> C["<b>Red Team Model</b><br/>Gemma 3 4B<br/>(Unsloth 4-bit / LoRA)"]
+    D{"<b>GRPO Algorithm</b><br/>No Value Network"}
     end
 
     subgraph "Evaluation Loop"
-    C --> E[Group Generation<br/>(G=4 Samples)]
-    E --> F[Reward Calculation<br/>(Consistency + Diversity)]
+    C --> E["Group Generation<br/>(G=4 Samples)"]
+    E --> F["Reward Calculation<br/>(Consistency + Diversity)"]
     end
 
     F -->|Advantage Signal| D
